@@ -6,7 +6,7 @@ from pwnagotchi.ui.hw.base import DisplayImpl
 
 class Waveshare75inchV2(DisplayImpl):
     def __init__(self, config):
-        super(Waveshare75inchv2, self).__init__(config, 'Waveshare75inchv2')
+        super(Waveshare75inchV2, self).__init__(config, 'Waveshare75inchv2')
         self._display = None
 
     def layout(self):
