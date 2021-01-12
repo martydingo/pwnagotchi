@@ -13,21 +13,21 @@ class Waveshare75inchV2(DisplayImpl):
         fonts.setup(10, 9, 10, 35, 25, 9)
         self._layout['width'] = 800
         self._layout['height'] = 480
-        self._layout['face'] = (0, 40)
-        self._layout['name'] = (5, 25)
+        self._layout['face'] = (0, 150)
+        self._layout['name'] = (14, 80)
         self._layout['channel'] = (0, 0)
-        self._layout['aps'] = (28, 0)
-        self._layout['uptime'] = (230, 0)
-        self._layout['line1'] = [0, 14, 296, 14]
-        self._layout['line2'] = [0, 112, 296, 112]
-        self._layout['friend_face'] = (0, 96)
-        self._layout['friend_name'] = (40, 96)
-        self._layout['shakes'] = (0, 114)
-        self._layout['mode'] = (268, 114)
+        self._layout['aps'] = (76, 0)
+        self._layout['uptime'] = (622, 0)
+        self._layout['line1'] = [0, 53, 800, 53]
+        self._layout['line2'] = [0, 420, 800, 420]
+        self._layout['friend_face'] = (0, 338)
+        self._layout['friend_name'] = (108, 360)
+        self._layout['shakes'] = (0, 428)
+        self._layout['mode'] = (724, 428)
         self._layout['status'] = {
-            'pos': (130, 25),
+            'pos': (352, 94),
             'font': fonts.status_font(fonts.Medium),
-            'max': 28
+            'max': 72
         }
         return self._layout
 
