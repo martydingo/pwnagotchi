@@ -11,8 +11,8 @@ class Waveshare75inchV2(DisplayImpl):
 
     def layout(self):
         fonts.setup(10, 9, 10, 35, 25, 9)
-        self._layout['width'] = 296
-        self._layout['height'] = 128
+        self._layout['width'] = 800
+        self._layout['height'] = 480
         self._layout['face'] = (0, 40)
         self._layout['name'] = (5, 25)
         self._layout['channel'] = (0, 0)
