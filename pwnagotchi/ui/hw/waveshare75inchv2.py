@@ -10,7 +10,7 @@ class Waveshare75inchV2(DisplayImpl):
         self._display = None
 
     def layout(self):
-        fonts.setup(10, 9, 10, 35, 25, 9)
+        fonts.setup(21, 19, 22, 77, 54, 19)
         self._layout['width'] = 800
         self._layout['height'] = 480
         self._layout['face'] = (0, 150)
@@ -26,7 +26,7 @@ class Waveshare75inchV2(DisplayImpl):
         self._layout['mode'] = (724, 428)
         self._layout['status'] = {
             'pos': (352, 94),
-            'font': fonts.status_font(fonts.Huge),
+            'font': fonts.status_font(fonts.Medium),
             'max': 72
         }
         return self._layout
